@@ -1,7 +1,9 @@
 # RuuviTag to Grafana
 Read data from a RuuviTag and graph it in Grafana. 
 
-You need to: apt install bluez-hcidump
+You need to: 
+- apt install bluez-hcidump
+- pip3 install ruuvitag_sensor
 
 This script is intended to be used with: 
 https://github.com/BarkinSpider/SolarShed/
